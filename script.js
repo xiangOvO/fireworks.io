@@ -1450,24 +1450,6 @@ const Spark = {
 
 
 
-<button onclick="dt()">停止播放</button>
-<button onclick="st()">开始播放</button>
-<button onclick="rs()">重置播放</button>
-	
-
-	function dt(){
-		var dd = document.getElementById("dd")
-		dd.pause()
-	}
-	function st(){
-		var dd = document.getElementById("dd")
-		dd.play()
-	}
-	function rs(){
-		var dd = document.getElementById("dd")
-		dd.load()
-	};
-
 
 
 
